@@ -1,0 +1,744 @@
+{
+  "config": {
+    "instrucciones_entrega": "Dirección: Camino de la Costa Brava S/N - Zárate, Prov. De Buenos Aires\nHorarios de Recepción: Lunes a Viernes de 08:00 a 17:00 hs.\n* Por favor adjuntar Remito y mencionar N° de Orden de Compra en la facturación."
+  },
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "nombre": "Administrador",
+      "role": "admin",
+      "email": "admin@coldland.com"
+    },
+    {
+      "username": "comprador",
+      "password": "comprador123",
+      "nombre": "Comprador",
+      "role": "comprador",
+      "email": "comprador@coldland.com"
+    },
+    {
+      "username": "externo",
+      "password": "externo123",
+      "nombre": "Externo",
+      "role": "externo",
+      "email": "externo@coldland.com"
+    },
+    {
+      "username": "salamaquinas",
+      "nombre": "SALAMAQUINAS",
+      "role": "externo",
+      "password": "salamaquinas",
+      "email": "SALAMAQUINAS@COLDLAND.COM.AR"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": "P1000",
+      "cuit": "30-70893359-3",
+      "razon_social": "ECOPROL SRL ",
+      "localidad": "CASEROS",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1001",
+      "cuit": "30-69058008-6",
+      "razon_social": "LMA INDUSTRIAL S.A. ",
+      "localidad": "MARTINEZ",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1002",
+      "cuit": "33-71568891-9",
+      "razon_social": "MZ PLEGADOS SRL",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1003",
+      "cuit": "30-57645535-2",
+      "razon_social": "ELECTRICIDAD MIGUEL S.A.",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 15 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1004",
+      "cuit": "30-71235650-9",
+      "razon_social": "NISAMAT GROUP ",
+      "localidad": "PILAR / LUJAN",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1005",
+      "cuit": "30-70979703-0",
+      "razon_social": "RESISTENCIAS ELECTRO ARGENTINAS SRL",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1007",
+      "cuit": "30-53980805-9",
+      "razon_social": "FERROZINC SACI",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1008",
+      "cuit": "30-71617678-5",
+      "razon_social": "CEMAYCO SOLUCIONES CONSTRUCTIVAS SRL",
+      "localidad": "ESCOBAR",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1009",
+      "cuit": "30-70710676-6",
+      "razon_social": "HEAT TRACE ARGENTINA S.A. ",
+      "localidad": "CABA",
+      "cond_pago": "10 DFF C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1010",
+      "cuit": "30-70996192-2",
+      "razon_social": "VILENI SRL",
+      "localidad": "CAMPANA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1011",
+      "cuit": "30-71627693-3",
+      "razon_social": "MORE CLEAN SRL",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1012",
+      "cuit": "30-6945252-6",
+      "razon_social": "CLP SRL (CASA THAMES)",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1013",
+      "cuit": "20-22309013-4",
+      "razon_social": "MANIERI DAMARIS FLORENCIA MACIEL",
+      "localidad": "Histórico",
+      "cond_pago": "E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1014",
+      "cuit": "20-22-309013-",
+      "razon_social": "MANIERI NICOLAS BONADDIO",
+      "localidad": "Histórico",
+      "cond_pago": "E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1015",
+      "cuit": "20-2074887-1",
+      "razon_social": "NESTOR RENDICH",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1016",
+      "cuit": "30-71717864-1",
+      "razon_social": "MERAKI  SUPPLIES AND SERVICES SAS",
+      "localidad": "LOMAS DE ZAMORA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1017",
+      "cuit": "30-66765750-0",
+      "razon_social": "FERRETERIA INDUFER S.A.",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 45 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1018",
+      "cuit": "20-41262024-1",
+      "razon_social": "GIRARDI BRUNO",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1019",
+      "cuit": "30-68675578-5",
+      "razon_social": "FERRONIER SRL",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1020",
+      "cuit": "30-50635784-1",
+      "razon_social": "JEFFERSON SUDAMERICANA SA ",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 15 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1021",
+      "cuit": "30-71727423-3",
+      "razon_social": "GRUPO VLANTE SRL",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1022",
+      "cuit": "30-71826198-4",
+      "razon_social": "YOGOSUM MONTAJES Y SERVICIOS INDUSTRIALES SRL",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1023",
+      "cuit": "30-71566738-6",
+      "razon_social": "DIGITAL SALE SRL ",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFER C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1024",
+      "cuit": "30-70102073-8",
+      "razon_social": "AGUAS DE CALDERAS Y CIRCUITOS SA (SISTEMA TQ)",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1025",
+      "cuit": "33-71076331-9",
+      "razon_social": "ELEVAMUNDO SRL",
+      "localidad": "VILLA LUZURIAGA",
+      "cond_pago": "E-CHEQ 15 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1026",
+      "cuit": "23-30994646-4",
+      "razon_social": "ACAR INGENIERIA PRESUPUESTO",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1027",
+      "cuit": "30-69530250-5",
+      "razon_social": "LABORATORIO BELQUIM SRL",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1028",
+      "cuit": "30-69023246-0",
+      "razon_social": "INDEPENDENCIA MAQUINARIAS",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFER C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1029",
+      "cuit": "30-71151047-4",
+      "razon_social": "INNOVACIONES ECOLOGICAS",
+      "localidad": "CASEROS",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1030",
+      "cuit": "30-71473678-3",
+      "razon_social": "FERRETERIA Y CORRALON LAS CAMPANAS SH",
+      "localidad": "CAMPANA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1031",
+      "cuit": "20-07844247-7",
+      "razon_social": "GATTI CARLOS ALBERTO",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 15 DFF C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1032",
+      "cuit": "30-70767583-3",
+      "razon_social": "MERCOFRIO SA",
+      "localidad": "CABA, BARRACAS.",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1033",
+      "cuit": "30-71764436-7",
+      "razon_social": "T. SERVICIOS SRL",
+      "localidad": "CAMPANA",
+      "cond_pago": "ANTICIPO / RESTO E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1034",
+      "cuit": "27-05971666-8",
+      "razon_social": "FRIAS IRMA SUSANA (PAPELERA ZÁRATE)",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1035",
+      "cuit": "30-70732907-2",
+      "razon_social": "TELECTRONICA CODIFICACIÓN S.A.",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1036",
+      "cuit": "30-67663107-7",
+      "razon_social": "SEW EURODRIVE S.A",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1037",
+      "cuit": "30-58173895-8",
+      "razon_social": "RODAMIENTOS EL PALOMAR SRL ",
+      "localidad": "EL PALOMAR",
+      "cond_pago": "TRANSFER C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1038",
+      "cuit": "30-60009852-3",
+      "razon_social": "RULEMANES ALVEAR S.A. ",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFER C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1039",
+      "cuit": "30-71111977-5",
+      "razon_social": "INSTITUTO DEL TRABAJADO DE ZÁRATE S.A.",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1040",
+      "cuit": "30-71567040-9",
+      "razon_social": "SYNERGIA - NAVE DISTRIBUCIONES S.A.",
+      "localidad": "CAMPANA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1041",
+      "cuit": "20-32018485-2",
+      "razon_social": "SANTORSOLA MATIAS NICOLAS ",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ 30 DFF C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1042",
+      "cuit": "30-70792778-6",
+      "razon_social": "CANALETA SRL",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1043",
+      "cuit": "20-37866205-3",
+      "razon_social": "TORTONESE ALEJANDRO ALEJANDRO TORTONESE",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1044",
+      "cuit": "30-70838978-8",
+      "razon_social": "CERRO INDUMENTARIA S.A.",
+      "localidad": "MENDOZA CAPITAL",
+      "cond_pago": "E-CHEQ 30/45 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1045",
+      "cuit": "30-71016529-3",
+      "razon_social": "COMPANIA ARGENTINA DE SEGURIDAD INDUSTRIAL SRL ",
+      "localidad": "CASEROS",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1046",
+      "cuit": "20-25359618-0",
+      "razon_social": "BLASCO ERNESTO DAMIAN (DANA INDUMENTARIA)",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30/45 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1047",
+      "cuit": "30-54428746-6",
+      "razon_social": "ORLANDO TURANO SRL",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1048",
+      "cuit": "30-71762799-3",
+      "razon_social": "RUBBERTEX ARGENTINA SRL",
+      "localidad": "PILAR",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1049",
+      "cuit": "30-70974715-7",
+      "razon_social": "BALBIN 3001 SRL (DEOBRAS)",
+      "localidad": "CASEROS",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1050",
+      "cuit": "30-59012324-9",
+      "razon_social": "NEUMASUR S.A.",
+      "localidad": "CABA / ZARATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1051",
+      "cuit": "20-22295479-8",
+      "razon_social": "GAMARRA SERGIO FABIAN (HI-PRO MATAFUEGOS)",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1052",
+      "cuit": "30-62128504-8",
+      "razon_social": "LUBRICAR ALEM SH",
+      "localidad": "Histórico",
+      "cond_pago": "CTA. CTE",
+      "email": ""
+    },
+    {
+      "id": "P1053",
+      "cuit": "30-71038347-9",
+      "razon_social": "ABDALA GRAFICA SRL ",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 15 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1054",
+      "cuit": "30-71134207-5",
+      "razon_social": "REFRIGERACION ESCOBAR SRL",
+      "localidad": "ZÁRATE",
+      "cond_pago": "CTA. CTE 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1055",
+      "cuit": "30-70803189-1",
+      "razon_social": "TESTO ARGENTINA S.A.",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFERENCIA C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1056",
+      "cuit": "30-71738403-9",
+      "razon_social": "GJAFEM INSTRUMENTOS SRL (SOLTEC INSTRUMENTOS)",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFER C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1057",
+      "cuit": "30-70799786-5",
+      "razon_social": "NEW IRONS SRL",
+      "localidad": "ZÁRATE",
+      "cond_pago": "TRANSFERENCIA 7 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1058",
+      "cuit": "20-13224594-1",
+      "razon_social": "PORTA HORACIO HORACIO",
+      "localidad": "ZÁRATE",
+      "cond_pago": "TRANSFERENCIA 20 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1059",
+      "cuit": "20-10356530-9",
+      "razon_social": "CASATI ENRIQUE ARIEL",
+      "localidad": "Histórico",
+      "cond_pago": "E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1060",
+      "cuit": "30-51674005-8",
+      "razon_social": "A.G. PRUDEN  & CIA.  S.A.",
+      "localidad": "MARTINEZ",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1061",
+      "cuit": "33-71220704-9",
+      "razon_social": "LOFEPEN S.H.",
+      "localidad": "VILLA LUZURIAGA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1063",
+      "cuit": "20-13776984-1",
+      "razon_social": "LUIS OSVALDO FALIVENE (TORONTO SANITARIOS)",
+      "localidad": "ZÁRATE",
+      "cond_pago": "CTA. CTE 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1065",
+      "cuit": "30-71639603-3",
+      "razon_social": "SERVICIOS LOS CEIBOS S.A ",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1066",
+      "cuit": "20-13465112-2",
+      "razon_social": "ALTOMARE MAURO",
+      "localidad": "CABA",
+      "cond_pago": "ANTICIPO / RESTO E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1067",
+      "cuit": "20-21508560-1",
+      "razon_social": "USECHI HUGO ALFREDO (ENCO PACK)",
+      "localidad": "ZÁRATE",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1068",
+      "cuit": "30-51574428-9",
+      "razon_social": "FERMOD S A C I F E I",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1069",
+      "cuit": "30-71548406-0",
+      "razon_social": "SMTE TRACCION SRL",
+      "localidad": "SAN ISIDRO",
+      "cond_pago": "E-CHEQ 15 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1070",
+      "cuit": "23-12057429-9",
+      "razon_social": "G.H. MORALA",
+      "localidad": "PILAR",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1072",
+      "cuit": "20-16891992-2",
+      "razon_social": "POLANCO GERARDO FABIAN ",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1073",
+      "cuit": "30-62977847-7",
+      "razon_social": "ELECTROSISTEM S.A.",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFER C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1074",
+      "cuit": "30-61882915-0",
+      "razon_social": "HASAR SERVICIOS SRL ",
+      "localidad": "CABA",
+      "cond_pago": "TRANSFERENCIA",
+      "email": ""
+    },
+    {
+      "id": "P1075",
+      "cuit": "30-57822347-5",
+      "razon_social": "FERROCEMENT S.A. ",
+      "localidad": "ITUZAINGO, BUENOS AIRES.",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1076",
+      "cuit": "30-71111200-2",
+      "razon_social": "TECNICA LIFT S.A.",
+      "localidad": "VILLA BALLESTER",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1077",
+      "cuit": "30-67975426-9",
+      "razon_social": "DISAC S A ",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1078",
+      "cuit": "30-52204399-7",
+      "razon_social": "TECNO SIM S.A.",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1079",
+      "cuit": "20-14166413-2",
+      "razon_social": "SERGIO GONZALEZ (BULONERA AVENIDA)",
+      "localidad": "ZÁRATE",
+      "cond_pago": "CTA. CTE 30 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1080",
+      "cuit": "30-70874402-2",
+      "razon_social": "NEUMACON SRL",
+      "localidad": "CABA",
+      "cond_pago": "E-CHEQ 15 DFF C/ENTREGA",
+      "email": ""
+    },
+    {
+      "id": "P1081",
+      "cuit": "30-65269109-5",
+      "razon_social": "JMH SRL",
+      "localidad": "HISTÓRICO",
+      "cond_pago": "E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1082",
+      "cuit": "20-1466484-0",
+      "razon_social": "ITE WAGNER JORGE WAGNER",
+      "localidad": "Histórico",
+      "cond_pago": "E-CHEQ",
+      "email": ""
+    },
+    {
+      "id": "P1083",
+      "cuit": "30-69325977-7",
+      "razon_social": "LUPART AUTOELEVADORES",
+      "localidad": "LANUS",
+      "cond_pago": "E-CHEQ 15 DFF",
+      "email": ""
+    },
+    {
+      "id": "P1085",
+      "cuit": "20-30966836-8",
+      "razon_social": "GOMEZ TRONCOSO MARIA CANDELA",
+      "localidad": "CAMPANA",
+      "cond_pago": "E-CHEQ 30 DFF",
+      "email": ""
+    }
+  ],
+  "materiales": [
+    {
+      "id": "MAT-1001",
+      "desc": "PAPEL HIGENICO \"ELITE\" DH 4X30MTS.",
+      "tipo": "Insumo",
+      "uom": "UN",
+      "stock_minimo": 12,
+      "stock_maximo": 60
+    }
+  ],
+  "centrosCosto": [
+    "Administración",
+    "Operaciones",
+    "Oficina Operaciones",
+    "Aduana",
+    "Portería",
+    "Mantenimiento",
+    "Sala de Máquinas",
+    "Limpieza Oficinas",
+    "Limpieza Operaciones"
+  ],
+  "solicitudes": [],
+  "cotizaciones": [],
+  "ordenes": [],
+  "migos": [],
+  "miros": [],
+  "stockPanol": [
+    {
+      "id": "MAT-1001",
+      "desc": "PAPEL HIGENICO \"ELITE\" DH 4X30MTS.",
+      "cant": 0,
+      "uom": "UN"
+    }
+  ],
+  "consumos": [],
+  "maquinarias": [
+    {
+      "id": "MAQ-1001",
+      "codigo": "EQP-1001",
+      "desc": "Compresor nro. 1",
+      "ubicacion": "Sala de maquinas",
+      "observaciones": "",
+      "componentes": []
+    }
+  ],
+  "ubicaciones": [
+    "Sala de maquinas",
+    "Sala de maquinas (Oficina)",
+    "Sala de maquinas (Exterior)",
+    "Sala de maquinas (Interior)",
+    "Operaciones (oficina)",
+    "Antecamara Nacional",
+    "Antecamara Fiscal",
+    "Oficina Central",
+    "Oficina Central (Administración)",
+    "Oficina Central (Gerencia)",
+    "Oficina Central (Oficina Franco)",
+    "Camara A"
+  ]
+}

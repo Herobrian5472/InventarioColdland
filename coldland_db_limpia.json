@@ -1,0 +1,25 @@
+{
+    "config": {
+        "instrucciones_entrega": "Dirección: Camino de la Costa Brava S/N - Zárate, Prov. De Buenos Aires\nHorarios de Recepción: Lunes a Viernes de 08:00 a 17:00 hs.\n* Por favor adjuntar Remito y mencionar N° de Orden de Compra en la facturación."
+    },
+    "proveedores": [],
+    "materiales": [],
+    "centrosCosto": [
+        "Administración",
+        "Operaciones",
+        "Oficina Operaciones",
+        "Aduana",
+        "Portería",
+        "Mantenimiento",
+        "Sala de Máquinas",
+        "Limpieza Oficinas",
+        "Limpieza Operaciones"
+    ],
+    "solicitudes": [],
+    "cotizaciones": [],
+    "ordenes": [],
+    "migos": [],
+    "miros": [],
+    "stockPanol": [],
+    "consumos": []
+}
